@@ -1,0 +1,213 @@
+/*
+global
+*/
+
+.heading-site {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+/*
+header
+*/
+
+.header {
+    width: 100%;
+    height: 80px;
+    line-height: 70px;
+    background-color: rgba(0,0,0,0);
+    top:initial;
+    z-index: 999;
+    font-size: 30px;
+}
+
+
+
+.header .header-logo {
+    color:#753002;
+    float: left;
+    background-color: rgba(0,0,0,0);
+    margin-left: 30px;
+}
+
+ .header .header-menu {
+     float:right;
+     margin-right: 30px;
+}
+
+.header .header-menu a {
+    margin-right: 60px;
+    color: #753002;
+}
+
+.header .header-menu a:hover{
+    color: #3498db;
+}
+
+/*
+banner
+*/
+
+.banner{
+    margin-top: -20px;
+}
+
+.banner .banner-image{
+    position: relative;
+    width: 100%;
+}
+
+.banner .banner-content{
+    position: absolute;
+    text-align: center;
+    top: 30%;
+    left: 5% ;
+
+}
+
+.banner .banner-content h1,
+.banner .banner-content h2{
+    
+    color:#753002;
+}
+
+
+/*
+about
+*/
+.about .about-me {
+    text-align: center;
+    width: 100%;
+    height: 70px;
+    font-size: 30px;
+}
+
+.about .about-single-element .icon{
+    font-size: 40px;
+    text-align: center;
+}
+
+.about .about-single-element{
+    text-align:center;
+}
+
+.about .about-single-element p{
+    text-align:center;
+    margin-top: 20px;
+}
+
+/*
+footer
+*/
+
+.footer .footer-informations{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.footer .footer-informations ul{
+    padding: 0;
+}
+
+.footer .footer-informations ul li{
+    display: inline-block;
+    list-style-type: none;
+}
+.footer .footer-informations .footer-logo .icons{
+
+    font-size: 30px;
+    text-align: center;
+}
+
+
+/*
+modal
+*/
+
+.own-modal{
+    padding-top: 120px;
+}
+
+/*
+card
+*/
+
+.card {
+    max-width: 220px;
+    left: 5%;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 60px;
+    
+  }
+
+  .card .card-content {
+      font-size:8px;
+  }
+  
+   
+a {
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.card .content {
+    font-size: 12px;
+}
+
+/*
+main
+*/
+
+.about .about-you {
+    text-align: left;
+    width: 100%;
+    height: 70px;
+    font-size: 50px;
+    background-color: #ecf0f1;
+    margin-bottom: 100px;
+}
+
+
+
+.main-image{
+    position: relative;
+    width: 40%;
+    margin-top: 0;
+    text-align: center;
+}
+
+.about .main-single-element{
+    margin-top: 100px;
+    margin-left: 50px;
+}
+
+.about .main-single-element p{
+    text-align: left;
+    width: 100%;
+    height: 70px;
+    font-size: 35px;
+    margin-bottom: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+

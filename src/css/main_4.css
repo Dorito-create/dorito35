@@ -1,0 +1,128 @@
+/*
+global
+*/
+
+.heading-site {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+a {
+    text-decoration: none;
+    font-size: 15px;
+}
+
+/*
+header
+*/
+
+.header {
+    width: 100%;
+    height: 80px;
+    line-height: 70px;
+    background-color: rgba(0,0,0,0);
+    top:initial;
+    z-index: 999;
+    font-size: 30px;
+}
+
+.header .header-logo {
+    color:#753002;
+    float: left;
+    background-color: rgba(0,0,0,0);
+    margin-left: 30px;
+}
+
+ .header .header-menu {
+     float:right;
+     margin-right: 30px;
+}
+
+.header .header-menu a {
+    margin-right: 60px;
+    color: #753002;
+}
+
+.header .header-menu a:hover{
+    color: #3498db;
+}
+
+/*
+banner image
+*/
+
+
+
+html, body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	width: 100%;
+}
+/* dimension et positionnement du bloc conteneur de l'image */
+#arriere {
+
+	margin-left: 40px;
+    top: 5em;
+    
+	height : 35em;
+    width : 85em;
+    
+}
+/* l'image occupe toute la place de son bloc conteneur */
+#arriere img {
+	width : 100%;
+    height: 100%;
+    position: relative;
+}
+
+/*
+colunmns
+*/
+
+.about-single-element {
+    margin-left: 80px;
+    margin-top: 20px;
+    position: relative;
+    width: 70%;
+    margin-right: 80px;
+    display: block;
+}
+
+.banner-content {
+    margin-left: 20px;
+    position: absolute;
+    bottom: 10%;
+    float: left;
+    display: flex;
+    
+}
+
+.banner-content h1{
+    color: whitesmoke;
+    text-align: left;
+}
+
+hr { 
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: 80px;
+    margin-right: 80px;
+    border-style: inset;
+    border-width: 1px;
+    border: 1px solid red;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
